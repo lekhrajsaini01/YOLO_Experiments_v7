@@ -1,0 +1,4 @@
+python train.py --device 0 --batch-size 12 --nosave --notest --data data/custom.yaml --img 256 256 --cfg cfg/training/yolov7_custom.yaml --weights 'yolov7_training.pt' --hyp data/hyp.scratch.custom.yaml --epochs 30 --name ./experiment_p1
+
+
+python detect.py --weights runs\train\experiment13\weights\best.pt --source custom_dataset\test_images --device 0
