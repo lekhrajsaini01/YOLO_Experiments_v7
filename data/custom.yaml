@@ -1,0 +1,74 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+# download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./custom_dataset/train.txt  # 118287 images
+val: ./custom_dataset/val.txt  # 5000 images
+# test: ./coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 60
+
+# class names
+names: ['Fixed-wing Aircraft',
+ 'Small Aircraft',
+ 'Cargo Plane',
+ 'Helicopter',
+ 'Passenger Vehicle',
+ 'Small Car',
+ 'Bus',
+ 'Pickup Truck',
+ 'Utility Truck',
+ 'Truck',
+ 'Cargo Truck',
+ 'Truck w/Box',
+ 'Truck Tractor',
+ 'Trailer',
+ 'Truck w/Flatbed',
+ 'Truck w/Liquid',
+ 'Crane Truck',
+ 'Railway Vehicle',
+ 'Passenger Car',
+ 'Cargo Car',
+ 'Flat Car',
+ 'Tank car',
+ 'Locomotive',
+ 'Maritime Vessel',
+ 'Motorboat',
+ 'Sailboat',
+ 'Tugboat',
+ 'Barge',
+ 'Fishing Vessel',
+ 'Ferry',
+ 'Yacht',
+ 'Container Ship',
+ 'Oil Tanker',
+ 'Engineering Vehicle',
+ 'Tower crane',
+ 'Container Crane',
+ 'Reach Stacker',
+ 'Straddle Carrier',
+ 'Mobile Crane',
+ 'Dump Truck',
+ 'Haul Truck',
+ 'Scraper/Tractor',
+ 'Front loader/Bulldozer',
+ 'Excavator',
+ 'Cement Mixer',
+ 'Ground Grader',
+ 'Hut/Tent',
+ 'Shed',
+ 'Building',
+ 'Aircraft Hangar',
+ 'Damaged Building',
+ 'Facility',
+ 'Construction Site',
+ 'Vehicle Lot',
+ 'Helipad',
+ 'Storage Tank',
+ 'Shipping container lot',
+ 'Shipping Container',
+ 'Pylon',
+ 'Tower']
